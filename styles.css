@@ -1,0 +1,131 @@
+/* Sizes
+  16px = 100% = 1em = 1rem => Recommendation: use rem 
+*/
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  color: #66bfbf;
+  margin: 50px auto 0;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  /* line-height: 2; */
+}
+h2 {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding: 10px;
+}
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  line-height: 2;
+}
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 5px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.8rem;
+  padding: 20px 0;
+}
+.pro {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  top: 400px;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.code-img {
+  margin-right: 30px;
+  width: 25%;
+  float: left;
+}
+.chilli-img {
+  margin-left: 30px;
+  width: 25%;
+  float: right;
+}
+/* .parag {
+  clear: right;
+} */
+
+/*  With great power comes great responsiblity
+  Use float only for the cases of wrapping text only, but use positioning like abs, rel, none, stat
+  */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 80px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb#30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #11cdd4, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}

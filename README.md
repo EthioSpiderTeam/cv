@@ -1,2 +1,2 @@
-# HTML exercise 
+# CV format exercise 
 Exercise on HTML and CSS
